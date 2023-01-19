@@ -1,0 +1,78 @@
+/* import image from "./../IMG_8003.JPG"; */
+
+.LandingRightContainer{
+    margin: 3em 3em 0em 5em;
+    
+}
+
+.LeafDesign{
+    height: 300px;
+    width: 200px;
+    background-color: #145858;
+    border-radius: 0% 55% 55% 55%;
+    z-index: -1;
+    position:relative;
+    margin-bottom: -400px;
+}
+
+.LeafImage{
+    height: 400px;
+    width: 300px;
+    background-color: #555;
+    border-radius: 50% 0% 50% 0%;
+    z-index: -1;
+    margin-left: 80px;
+    position: relative;
+    
+    background-image: image;
+    object-position: 50% 50%;
+    
+}
+
+.CircleText{
+    width:200px;
+    border-radius: 50%;
+    z-index: -1;
+    position:relative;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.CircleImage{
+    height: 150px;
+    width: 150px;
+    background-color: #C8E0CA;
+    border-radius: 50%;
+    z-index: 1;
+    position:relative;
+    margin-bottom: -350px;
+    
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typewrite{
+    height: 120px;
+    width: 120px;
+    background-color:#C8E0CA;
+    border-radius: 50%;
+    border: 5px solid white;
+
+    font-size: 100px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3em;
+}

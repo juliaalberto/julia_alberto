@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&display=swap');
+
+.ResumeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0em 5em 0em;
+}
+
+.title{
+    color:#013237;
+    font-family: Montserrat;
+}
+
+.pdf{
+    margin: 3em;
+    width: 80%;
+    height:1000px;
+}
+

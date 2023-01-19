@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.AboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0em 5em 0em;
+}
+
+h1{
+    font-size: xxx-large;
+    font-family: 'Montserrat', sans-serif;
+    color: #022851;
+}

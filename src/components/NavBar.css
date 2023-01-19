@@ -1,0 +1,38 @@
+.NavBarContainer{
+    display:flex;
+    flex-direction: rows;
+    width:80%;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Montserrat',sans-serif;
+}
+
+.NavBarLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border: 10px solid #F7B318;
+    border-radius: 50%;
+}
+
+.NavBarRight{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    min-width:250px;
+}
+
+a{
+    font-weight: 700;
+    text-decoration:none;
+    color: #145858;
+}
