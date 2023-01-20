@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/julia_alberto/static/css/main.462db352.css",
+    "main.js": "/julia_alberto/static/js/main.4d6284c0.js",
+    "static/js/787.ce2d5279.chunk.js": "/julia_alberto/static/js/787.ce2d5279.chunk.js",
+    "static/media/IMG_8003.JPG": "/julia_alberto/static/media/IMG_8003.27c2c7fcfd03aa4014b9.JPG",
+    "static/media/Julia_Elyssa_Alberto_Resume.pdf": "/julia_alberto/static/media/Julia_Elyssa_Alberto_Resume.a93a7b3fa3194e9c3338.pdf",
+    "index.html": "/julia_alberto/index.html",
+    "main.462db352.css.map": "/julia_alberto/static/css/main.462db352.css.map",
+    "main.4d6284c0.js.map": "/julia_alberto/static/js/main.4d6284c0.js.map",
+    "787.ce2d5279.chunk.js.map": "/julia_alberto/static/js/787.ce2d5279.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.462db352.css",
+    "static/js/main.4d6284c0.js"
+  ]
+}
