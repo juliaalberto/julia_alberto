@@ -1,11 +1,11 @@
 import './home.css';
 
 import * as React from 'react';
-import NavBar from '../../components/NavBar';
+import NavBar from '../../NavBar/NavBar';
 
 import LandingLeft from '../../components/LandingLeft/LandingLeft';
 import LandingRight from '../../components/LandingRight/LandingRight';
-import Footer from '../../components/Footer';
+import Footer from '../../components/Footer/Footer';
 
 const HomePage = () =>{
     return(

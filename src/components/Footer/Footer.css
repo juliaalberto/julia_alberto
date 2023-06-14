@@ -1,0 +1,78 @@
+.FooterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:80%;
+    margin: 1em 0em 1em 0em;
+}
+
+.FooterLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:#013237;
+}
+
+.FooterLeft h2{
+    margin: 0;
+}
+
+.LinkContainer{
+    display: flex;
+    flex-direction: row;
+    width: 25em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4em;
+    height: 4em;
+    border: 2px solid #145858;;
+    border-radius: 50%;
+}
+
+.FooterRight{
+    display: flex;
+    flex-direction: column;
+    color:#013237;
+    max-width: 200px;
+}
+
+.FooterRight p{
+    font-size: 14px;
+}
+
+/* Tablet */
+@media (max-width: 820px) {
+    .FooterContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+    
+    .FooterLeft{
+        align-items: center;
+    }
+
+    .FooterRight{
+        max-width: 500px;
+    }
+}
+
+/* Phone */
+@media (max-width: 414px) {
+    .FooterContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .FooterRight{
+        max-width: 25em;
+    }
+}

@@ -1,8 +1,8 @@
 import './about.css';
 
 import * as React from 'react';
-import NavBar from '../../components/NavBar';
-import Footer from '../../components/Footer';
+import NavBar from '../../NavBar/NavBar';
+import Footer from '../../components/Footer/Footer';
 
 const AboutPage = () =>{
     return(

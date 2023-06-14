@@ -1,14 +1,20 @@
 import './work.css';
 
 import * as React from 'react';
-import NavBar from '../../components/NavBar';
-import Footer from '../../components/Footer';
+import NavBar from '../../NavBar/NavBar';
+import Footer from '../../components/Footer/Footer';
+
+import WorkLeft from '../../components/WorkLeft/WorkLeft';
+import WorkRight from '../../components/WorkRight/WorkRight';
 
 const WorkPage = () =>{
     return(
              <div class="WorkContainer">
                 <NavBar />
-                <h1> Work </h1>
+                <div class = "WorkLandingContainer">
+                    <WorkLeft/>
+                    <WorkRight/>
+                </div>
                 <Footer />
             </div>
     );

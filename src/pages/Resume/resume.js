@@ -2,9 +2,9 @@ import * as React from 'react';
 
 import './resume.css';
 
-import NavBar from '../../components/NavBar';
+import NavBar from '../../NavBar/NavBar';
 import pdf from "./../../components/Julia_Elyssa_Alberto_Resume.pdf"
-import Footer from '../../components/Footer';
+import Footer from '../../components/Footer/Footer';
 
 
 const ResumePage = () =>{
