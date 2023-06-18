@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import './resume.css';
 
-import NavBar from '../../NavBar/NavBar';
+import NavBar from '../../components/NavBar/NavBar';
 import pdf from "./../../components/Julia_Elyssa_Alberto_Resume.pdf"
 import Footer from '../../components/Footer/Footer';
 

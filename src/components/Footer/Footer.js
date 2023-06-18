@@ -18,7 +18,7 @@ const Footer = () =>{
         <div class ="LinkContainer">
           <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="Link"> <img src={instagram} alt="Instagram" /> </div> </a>
           <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="Link"> <img src={linkedin} alt="Linkedin" /></div> </a>
-          <div class="Link"> <img src={gmail} alt="Gmail" /></div>
+          <a href ="mailto:julia.elyssa.alberto@gmail.com"><div class="Link"> <img src={gmail} alt="Gmail" /></div> </a>
           <div class="Link"> <img src={coffee} alt="Coffee Chat" /></div>
         </div>
     </div>

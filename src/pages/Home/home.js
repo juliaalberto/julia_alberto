@@ -1,7 +1,7 @@
 import './home.css';
 
 import * as React from 'react';
-import NavBar from '../../NavBar/NavBar';
+import NavBar from '../../components/NavBar/NavBar';
 
 import LandingLeft from '../../components/LandingLeft/LandingLeft';
 import LandingRight from '../../components/LandingRight/LandingRight';
