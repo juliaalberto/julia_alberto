@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.1c8f6350.css",
-    "main.js": "./static/js/main.f3432726.js",
+    "main.css": "./static/css/main.59ec9531.css",
+    "main.js": "./static/js/main.97e48b9d.js",
     "static/js/787.ce2d5279.chunk.js": "./static/js/787.ce2d5279.chunk.js",
     "static/media/IMG_8003.JPG": "./static/media/IMG_8003.27c2c7fcfd03aa4014b9.JPG",
     "static/media/Julia_Elyssa_Alberto_Resume.pdf": "./static/media/Julia_Elyssa_Alberto_Resume.cf85cfcbd0d92e2075ed.pdf",
@@ -10,12 +10,12 @@
     "static/media/Coffee.svg": "./static/media/Coffee.f081c12ff848cd47c05a0348dc2797a1.svg",
     "static/media/LinkedIn.svg": "./static/media/LinkedIn.48bc4af32b53870dbc72967b951a91da.svg",
     "index.html": "./index.html",
-    "main.1c8f6350.css.map": "./static/css/main.1c8f6350.css.map",
-    "main.f3432726.js.map": "./static/js/main.f3432726.js.map",
+    "main.59ec9531.css.map": "./static/css/main.59ec9531.css.map",
+    "main.97e48b9d.js.map": "./static/js/main.97e48b9d.js.map",
     "787.ce2d5279.chunk.js.map": "./static/js/787.ce2d5279.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c8f6350.css",
-    "static/js/main.f3432726.js"
+    "static/css/main.59ec9531.css",
+    "static/js/main.97e48b9d.js"
   ]
 }
