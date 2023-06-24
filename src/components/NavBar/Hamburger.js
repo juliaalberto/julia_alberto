@@ -4,10 +4,10 @@ import * as React from 'react';
 export default function Burger({isOpen}){
     return (
         <>
-        <div class = "hburger">
-            <div class = "burger burger1"/>
-            <div class = "burger burger2"/>
-            <div class = "burger burger3"/>
+        <div className = "hburger">
+            <div className = "burger burger1"/>
+            <div className = "burger burger2"/>
+            <div className = "burger burger3"/>
         </div>
 
         <style jsx>{`
@@ -24,7 +24,7 @@ export default function Burger({isOpen}){
                 width: 2rem;
                 height: 0.25rem;
                 border-radius: 10px;
-                background-color: black;
+                background-color: #145858;
                 transform-origin: 1px;
                 transition: all 0.3s linear;
             }

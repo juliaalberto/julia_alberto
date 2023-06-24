@@ -25,18 +25,18 @@ const NavBar= () =>{
   // }
   
   return (
-  <div class = "NavBarContainer">
-    <div class="NavBarLeft">
-      <div class="logo"></div>
+  <div className = "NavBarContainer">
+    <div className="NavBarLeft">
+      <div className="logo"></div>
       <Link to="/">JULIA ELYSSA ALBERTO</Link>
     </div>
-    <div class="NavBarRight">
-      <div class ="linkscontainer">
+    <div className="NavBarRight">
+      <div className ="linkscontainer">
         <Link to="/about">ABOUT</Link>
         <Link to="/work">WORK</Link>
         <Link to="/resume">RESUME</Link>
       </div>
-      <div class="hamburger" onClick={toggleHamburger}>
+      <div className="hamburger" onClick={toggleHamburger}>
         <Burger isOpen={hamburgerOpen}/>
       </div>
     </div>
@@ -114,7 +114,7 @@ const NavBar= () =>{
       .NavBarRight .linkscontainer{
         display: ${hamburgerOpen ? 'flex' : 'none'};
         flex-direction: column;
-        background-color: white;
+        background-color: #FCF7F4;
         width: 80%;
       }
 
@@ -130,6 +130,7 @@ const NavBar= () =>{
         display:flex;
         flex-direction: column;
         align-items:flex-end;
+        
       }
     }
     
