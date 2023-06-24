@@ -14,11 +14,6 @@
     color:#013237;
 }
 
-p{
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .AboutButton{
     background-color: #F7B318;
     padding: 30px 60px 30px 60px;
@@ -29,4 +24,24 @@ p{
     
     font-size: 20px;
     color: #013237;
+}
+
+.AboutLeftText{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
+p{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px 0px
+}
+
+a{
+    text-align: left;
 }
