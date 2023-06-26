@@ -1,11 +1,12 @@
 import * as React from 'react';
 import { Link } from "react-router-dom";
   
-import './NavBar.css'
+import './NavBar.css';
 
 // import { Fade as Hamburger } from 'hamburger-react';
 
-import Burger from "./Hamburger.js"
+import Burger from "./Hamburger.js";
+import logo from "./JA_logo.png";
 
 import { useState } from 'react';
 
@@ -27,8 +28,7 @@ const NavBar= () =>{
   return (
   <div className = "NavBarContainer">
     <div className="NavBarLeft">
-      <div className="logo"></div>
-      <Link to="/">JULIA ELYSSA ALBERTO</Link>
+      <Link to="/"><img src={logo} alt="logo" className="logo"/> JULIA ELYSSA ALBERTO</Link>
     </div>
     <div className="NavBarRight">
       <div className ="linkscontainer">
@@ -64,8 +64,6 @@ const NavBar= () =>{
     .logo{
         height: 50px;
         width: 50px;
-        border: 10px solid #F7B318;
-        border-radius: 50%;
     }
     
     .NavBarRight{
@@ -81,9 +79,16 @@ const NavBar= () =>{
     }
     
     a{
+        display:flex;
+        align-items: center; 
+        gap: 10px; 
         font-weight: 700;
         text-decoration:none;
         color: #145858;
+    }
+
+    a:hover{
+      color:#F7B318;
     }
     
     .hamburger{

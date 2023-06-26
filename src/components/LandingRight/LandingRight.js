@@ -76,7 +76,7 @@ const LandingRight = () =>{
                 <div class= "CircleImage"><span class="wrap"><div class="typewrite" data-type='[ "🐕", "💜", "🧋", "💻", "🌱" ]'></div></span></div>
                 
                 {/* <div class= "LeafImage"></div> */}
-                <img src={image} alt="Image" class= "LeafImage" />
+                <img src={image} alt="FrontImage" class= "LeafImage" />
             </div>
     );
 }
