@@ -14,17 +14,17 @@ const Footer = () =>{
   <div class = "FooterContainer">
     <div class="FooterLeft">
         <h2>LETS CONNECT!</h2>
-        <p>I am currently looking for work opportunites</p>
-        <div class ="LinkContainer">
-          <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="Link"> <img src={instagram} alt="Instagram" /> </div> </a>
-          <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="Link"> <img src={linkedin} alt="Linkedin" /></div> </a>
-          <a href ="mailto:julia.elyssa.alberto@gmail.com"><div class="Link"> <img src={gmail} alt="Gmail" /></div> </a>
-          <div class="Link"> <img src={coffee} alt="Coffee Chat" /></div>
+        <h3>I am currently looking for work opportunites</h3>
+        <div class ="BottomLinkContainer">
+          <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={instagram} alt="Instagram" /> </div> </a>
+          <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={linkedin} alt="Linkedin" /></div> </a>
+          <a href ="mailto:julia.elyssa.alberto@gmail.com"><div class="SocialLink"> <img src={gmail} alt="Gmail" /></div> </a>
+          <div class="SocialLink"> <img src={coffee} alt="Coffee Chat" /></div>
         </div>
     </div>
     <div class="FooterRight">
-        <p> Made with 💜 and ☕️
-        by Julia Elyssa Alberto </p>
+        <h3> Made with 💜 and ☕️ </h3>
+        <h3> by Julia Elyssa Alberto </h3>
     </div>
   </div>
   );

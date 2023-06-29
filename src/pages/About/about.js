@@ -9,9 +9,9 @@ import AboutRight from '../../components/AboutRight/AboutRight';
 
 const AboutPage = () =>{
     return(
-             <div class="WorkContainer">
+             <div class="AboutContainer">
                 <NavBar />
-                <div class = "WorkLandingContainer">
+                <div class = "AboutLandingContainer">
                     <AboutLeft/>
                     <AboutRight/>
                 </div>

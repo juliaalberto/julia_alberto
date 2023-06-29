@@ -1,4 +1,3 @@
-
 import './AboutRight.css';
 
 import * as React from 'react';

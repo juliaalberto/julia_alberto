@@ -9,8 +9,8 @@ const WorkLeft = () =>{
              <div class="WorkLeftContainer">
                 <div className='WorkLeftText'>
                 <h1> Work </h1>
-                <pre> As of <div className='bold'>Summer 2022</div>,</pre>
-                <pre> I am a<b> Website Manager </b>for <a href ="https://aifs.ucdavis.edu/"> AIFS - AI Institute for Food Systems </a></pre>
+                <h2> As of <div className='bold'>Summer 2022</div>,</h2>
+                <h2> I am a<b> Website Manager </b>for <a href ="https://aifs.ucdavis.edu/"> AIFS - AI Institute for Food Systems </a></h2>
                 </div>
                 <Link to="/resume"> <button class= "WorkButton"> <b>Download Resume </b></button></Link> 
                 
