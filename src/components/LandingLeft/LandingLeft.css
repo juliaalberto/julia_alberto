@@ -42,12 +42,12 @@
 }
 
 .LandingButton:hover{
-    background-color:#013237;
-    color: #FCF7F4;
+    background-color:#C8E0CA;
+    color: #013237
 }
 
 .LandingButton:active{
-    box-shadow: 0px 0px 20px 1px #013237
+        box-shadow: 0px 0px 20px 1px #C8E0CA;
 }
 
 /* Tablet

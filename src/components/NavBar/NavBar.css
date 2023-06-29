@@ -58,12 +58,12 @@
 }
 
 .NavBarContainer a:hover{
-    border: solid 2px #F7B318 ; 
+    border: solid 2px #C8E0CA;
 }
 
 .NavBarContainer a:active{
-    box-shadow: 0px 0px 20px 1px #F7B318;
-    border-color: #F7B318;
+    box-shadow: 0px 0px 20px 1px #C8E0CA;
+    border-color: #C8E0CA;
   }
 
 .toplinkscontainer a{
@@ -78,12 +78,12 @@
 }
 
 .toplinkscontainer a:hover{
-  border-color: #F7B318;
+  border-color: #C8E0CA;
 }
 
 .toplinkscontainer a:active{
-    box-shadow: 0px 0px 20px 1px #F7B318;
-    border-color: #F7B318;
+    box-shadow: 0px 0px 20px 1px #C8E0CA;
+    border-color: #C8E0CA;
   }
 
 

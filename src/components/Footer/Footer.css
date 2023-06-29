@@ -28,7 +28,7 @@
 .BottomLinkContainer{
     display: flex;
     flex-direction: row;
-    width: 300px;
+    width: 400px;
     justify-content: space-around;
     align-items: center;
     height: 50px;
@@ -38,18 +38,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4em;
     height: 4em;
+    width: 4em;
     border-radius: 50%;
 }
 
 .SocialLink:hover{
-    border:solid 2px #F7B318;
-    
+    border:solid 2px #C8E0CA;
 }
 
-.SocialLink:after{
-    box-shadow: 0px 0px 20px 1px #F7B318;
+.SocialLink:active{
+    box-shadow: 0px 0px 20px 1px #C8E0CA;
     
 }
 
@@ -61,7 +60,7 @@
 
 .FooterRight h3{
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     font-family: Verrdana, Geneva, Tahoma, sans-serif;
     margin: 3px;
 }
