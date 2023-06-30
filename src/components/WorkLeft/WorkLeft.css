@@ -11,23 +11,25 @@
 }
 
 .WorkLeftContainer h1{
+    font-family: Montserrat;
     color:#013237;
 }
 
 .WorkLeftText{
     display:flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .WorkLeftText h2{
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display:flex;
-    align-items: flex-start;
     flex-wrap: wrap;
-    gap: 10px 10px;
-    text-align: left;
+    line-height: 1.5em;
+    justify-content: center;
+    gap: 0 10px;
+    font-weight: 500;
 }
 
 .WorkButton{
@@ -40,4 +42,24 @@
     
     font-size: 20px;
     color: #013237;
+}
+
+.WorkButton:hover{
+    background-color:#C8E0CA;
+    color: #013237
+}
+
+.WorkButton:active{
+        box-shadow: 0px 0px 20px 1px #C8E0CA;
+}
+
+.WorkLeftText a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #013237
+}
+
+.WorkLeftText a:hover{
+    color:#C8E0CA;
+    
 }
