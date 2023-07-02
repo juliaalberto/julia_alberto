@@ -1,7 +1,7 @@
 
 import './LandingRight.css';
 
-import image from "./../../components/IMG_8003.JPG";
+import image from "./IMG_8003.JPG";
 
 import * as React from 'react';
 

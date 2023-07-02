@@ -18,7 +18,7 @@ const Footer = () =>{
           <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={instagram} alt="Instagram" /> </div> </a>
           <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={linkedin} alt="Linkedin" /></div> </a>
           <a href ="mailto:julia.elyssa.alberto@gmail.com"><div class="SocialLink"> <img src={gmail} alt="Gmail" /></div> </a>
-          <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={github} alt="Github" /></div> </a>
+          <a href ="https://github.com/juliaalberto"> <div class="SocialLink"> <img src={github} alt="Github" /></div> </a>
           <div class="SocialLink"> <img src={coffee} alt="Coffee Chat" /></div>
         </div>
     </div>

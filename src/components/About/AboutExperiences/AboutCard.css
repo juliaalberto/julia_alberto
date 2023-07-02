@@ -1,0 +1,62 @@
+.InfoCardContainer{
+    width:20em;
+    height: 20em;
+    padding: 20px;
+    border: 2px solid red;
+    position: relative;
+    border-radius: 5%;
+    background: linear-gradient(180deg, rgba(252, 247, 244, 0.20) 40.62%, rgba(1, 50, 55, 0.20) 66.34%, #013237 100%);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.InfoCardContainer img{
+    position: absolute;
+    object-fit: contain;
+    height:20em;
+}
+
+.InfoCardBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    color: #FCF7F4;
+}
+
+.InfoCardBottom h1{
+    margin: 0;
+    /* text-shadow: -1px 1px 2px #013237,
+				  1px 1px 2px #013237,
+				  1px -1px 0 #013237,
+				  -1px -1px 0 #013237; */
+    font-family:Montserrat;
+    text-align: left;
+}
+
+.InfoCardContainer h2{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    color:#013237;
+    font-family:Montserrat;
+
+}
+
+.InfoCardBottom h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.InfoCardBottom span{
+    display: flex;
+    width: 20em;
+
+    font-weight: 900;
+    font-family:Montserrat;
+    text-align: left;
+}

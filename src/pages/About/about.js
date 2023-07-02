@@ -4,8 +4,9 @@ import * as React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
 
-import AboutLeft from '../../components/AboutLeft/AboutLeft';
-import AboutRight from '../../components/AboutRight/AboutRight';
+import AboutLeft from '../../components/About/AboutLeft/AboutLeft';
+import AboutRight from '../../components/About/AboutRight/AboutRight';
+import AboutExperiences from '../../components/About/AboutExperiences/AboutExperiences';
 
 const AboutPage = () =>{
     return(
@@ -14,7 +15,9 @@ const AboutPage = () =>{
                 <div class = "AboutLandingContainer">
                     <AboutLeft/>
                     <AboutRight/>
+                    
                 </div>
+                <AboutExperiences/>
                 <Footer />
             </div>
     );

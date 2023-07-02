@@ -2,10 +2,11 @@ import './home.css';
 
 import * as React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
-
-import LandingLeft from '../../components/LandingLeft/LandingLeft';
-import LandingRight from '../../components/LandingRight/LandingRight';
 import Footer from '../../components/Footer/Footer';
+
+import LandingLeft from '../../components/Home/LandingLeft/LandingLeft';
+import LandingRight from '../../components/Home/LandingRight/LandingRight';
+
 
 const HomePage = () =>{
     return(

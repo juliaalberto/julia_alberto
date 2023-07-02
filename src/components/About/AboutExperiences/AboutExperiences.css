@@ -1,0 +1,11 @@
+.AboutExperiencesContainer{
+    width: 80%;
+}
+
+.AboutExperienceCards{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}

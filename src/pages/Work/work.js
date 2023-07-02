@@ -4,8 +4,8 @@ import * as React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
 
-import WorkLeft from '../../components/WorkLeft/WorkLeft';
-import WorkRight from '../../components/WorkRight/WorkRight';
+import WorkLeft from '../../components/Work/WorkLeft/WorkLeft';
+import WorkRight from '../../components/Work/WorkRight/WorkRight';
 
 const WorkPage = () =>{
     return(
