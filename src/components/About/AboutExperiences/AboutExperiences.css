@@ -9,3 +9,9 @@
     align-items: center;
     justify-content: center;
 }
+
+.AboutExperiencesTitle{
+    font-family: Montserrat;
+    color:#013237;
+    margin: 50px 0px;
+}

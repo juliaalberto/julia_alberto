@@ -2,21 +2,27 @@
     width:20em;
     height: 20em;
     padding: 20px;
-    border: 2px solid red;
     position: relative;
     border-radius: 5%;
-    background: linear-gradient(180deg, rgba(252, 247, 244, 0.20) 40.62%, rgba(1, 50, 55, 0.20) 66.34%, #013237 100%);
-
+    /* background: linear-gradient(180deg, rgba(252, 247, 244, 0.20) 40.62%, rgba(1, 50, 55, 0.20) 66.34%, #013237 100%); */
+    background: #C8E0CA;
+    /* border: solid 2px #013237; */
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
+    
 }
+
 
 .InfoCardContainer img{
     position: absolute;
     object-fit: contain;
-    height:20em;
+    height: 23em;
+    top:0;
+    left:0;
+    margin-left: -4em;
 }
 
 .InfoCardBottom{
@@ -24,8 +30,10 @@
     flex-direction: column;
     align-items: flex-start;
 
-    color: #FCF7F4;
+    color: #013237;;
+    z-index: 1;
 }
+
 
 .InfoCardBottom h1{
     margin: 0;

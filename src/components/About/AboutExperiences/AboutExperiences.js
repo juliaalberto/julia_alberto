@@ -7,8 +7,8 @@ import Info from './AboutCard';
 
 const AboutExperiences = () =>{
     return(
-             <div class="AboutExperiencesContainer">
-                <h1> Experiences </h1>
+             <div className ="AboutExperiencesContainer">
+                <h1 className='AboutExperiencesTitle'> Experiences </h1>
                  <div className='AboutExperienceCards'>
                 {Users.map((e)=>{
                     return (
