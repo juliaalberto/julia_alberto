@@ -29,8 +29,6 @@
 /* Phone */
 @media (max-width: 414px) {
     .LandingContainer{
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
+        padding: 4em;
     }
 }

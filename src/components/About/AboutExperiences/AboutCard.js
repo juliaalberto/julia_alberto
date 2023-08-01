@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutCard.css';
 
-function Info (props){
+function CardInfo (props){
   return (
     <div className='InfoCardContainer'>
       {/* <img src="https://dogsbestlife.com/wp-content/uploads/2022/06/cutest-dog-breeds-scaled-e1655990275393.jpeg"></img> */}
@@ -16,4 +16,4 @@ function Info (props){
  
   )
 }
-export default Info;
+export default CardInfo;

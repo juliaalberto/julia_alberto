@@ -7,6 +7,8 @@ import Footer from '../../components/Footer/Footer';
 import WorkLeft from '../../components/Work/WorkLeft/WorkLeft';
 import WorkRight from '../../components/Work/WorkRight/WorkRight';
 
+import WorkExperience from '../../components/Work/WorkAccordion/WorkExperiences';
+
 const WorkPage = () =>{
     return(
              <div class="WorkContainer">
@@ -15,6 +17,8 @@ const WorkPage = () =>{
                     <WorkLeft/>
                     <WorkRight/>
                 </div>
+
+                <WorkExperience/>
                 <Footer />
             </div>
     );

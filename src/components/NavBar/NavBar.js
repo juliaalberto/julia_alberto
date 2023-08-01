@@ -21,7 +21,9 @@ const NavBar= () =>{
   return (
   <div className = "NavBarContainer">
     <div className="NavBarLeft">
-      <Link to="/"><img src={logo} alt="logo" className="logo"/> JULIA ELYSSA ALBERTO</Link>
+      <Link to="/"><img src={logo} alt="logo" className="logo"/> 
+      <h1 className= "NavBarTitle">JULIA ELYSSA ALBERTO</h1>
+      </Link>
     </div>
     <div className="NavBarRight">
       <div className ="toplinkscontainer">

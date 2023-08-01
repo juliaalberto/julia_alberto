@@ -86,6 +86,9 @@
     border-color: #C8E0CA;
   }
 
+.NavBarTitle{
+  font-size: 16px;
+}
 
 @media (max-width: 820px) {
   .NavBarRight{
@@ -118,6 +121,12 @@
 }
 
 /* Phone  */
-/* @media (max-width: 414px) {
+ @media (max-width: 414px) {
+    .NavBarTitle{
+      display: none;
+    }
 
-} */
+    .NavBarLeft{
+      justify-content: flex-start;
+    }
+}

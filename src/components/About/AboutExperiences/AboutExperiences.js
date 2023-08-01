@@ -2,7 +2,7 @@ import './AboutExperiences.css';
 
 import * as React from 'react';
 import Users from './List';
-import Info from './AboutCard';
+import CardInfo from './AboutCard';
  
 
 const AboutExperiences = () =>{
@@ -12,7 +12,7 @@ const AboutExperiences = () =>{
                  <div className='AboutExperienceCards'>
                 {Users.map((e)=>{
                     return (
-                    <Info year={e.year} name={e.name} description={e.description} languages={e.languages}/>
+                    <CardInfo year={e.year} name={e.name} description={e.description} languages={e.languages}/>
                     );})}
                 </div>
             </div>
