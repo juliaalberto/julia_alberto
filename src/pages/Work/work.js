@@ -11,14 +11,15 @@ import WorkExperience from '../../components/Work/WorkAccordion/WorkExperiences'
 
 const WorkPage = () =>{
     return(
-             <div class="WorkContainer">
+             <div className="WorkContainer">
                 <NavBar />
-                <div class = "WorkLandingContainer">
+                <div className = "WorkLandingContainer">
                     <WorkLeft/>
                     <WorkRight/>
                 </div>
-
-                <WorkExperience/>
+                <div className = "WorkExperienceContainer">
+                    <WorkExperience/>
+                </div>
                 <Footer />
             </div>
     );

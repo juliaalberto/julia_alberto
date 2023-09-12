@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.WorkExperienceContainer{
+    width:100%;
+}
+
 /* Tablet */
 @media (max-width: 820px) {
     .WorkLandingContainer{

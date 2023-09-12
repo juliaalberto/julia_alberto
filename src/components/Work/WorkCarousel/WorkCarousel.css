@@ -1,0 +1,49 @@
+.carousel{
+    margin: 2em 0 2em 0;
+}
+
+.carousel img{
+    height: auto;
+    max-width: 50em;
+    min-width: 25em;
+    
+}
+
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:20px;
+}
+
+.left{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #013237 transparent transparent;
+}
+
+.right{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #013237;
+}
+.indicator {
+  display:flex;
+  gap: 10px;
+}
+
+.dot {
+  background-color: #013237;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.active {
+  background-color: #F7B318;
+}
+

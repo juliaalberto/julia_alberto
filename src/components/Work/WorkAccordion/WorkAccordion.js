@@ -11,7 +11,6 @@ const WorkAccordion = ({ title, content }) => {
           <div>{title}</div>
           <div>{isActive ? '-' : '+'}</div>
         </div>
-        https://www.freecodecamp.org/news/build-accordion-menu-in-react-without-external-libraries/
         {isActive && <div className="accordion-content">{content}</div>}
       </div>
     );
