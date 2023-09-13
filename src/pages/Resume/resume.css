@@ -14,3 +14,36 @@
     height:1000px;
 }
 
+.ResumeButton{
+    background-color: #F7B318;
+    padding: 30px 60px 30px 60px;
+    border: none;
+    border-radius: 1em;
+    margin: 32px 0px 0px 0px;
+    text-decoration: none;
+    
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #013237;
+}
+
+.ResumeButton:hover{
+    background-color:#C8E0CA;
+    color: #013237
+}
+
+.ResumeButton:active{
+     box-shadow: 0px 0px 20px 1px #C8E0CA;
+}
+
+/* Tablet */
+@media (max-width: 820px) {
+}
+
+/* Phone */
+@media (max-width: 414px) {
+    .ResumeButton{
+        padding: 15px 30px 15px 30px;
+        font-size: 16px;
+    }
+}

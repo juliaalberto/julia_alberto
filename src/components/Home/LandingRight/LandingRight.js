@@ -1,7 +1,7 @@
 
 import './LandingRight.css';
 
-import image from "./IMG_8003.JPG";
+import image from "./Front_Image.JPG";
 
 import * as React from 'react';
 

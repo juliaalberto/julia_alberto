@@ -1,4 +1,5 @@
 /* import image from "./../IMG_8003.JPG"; */
+/* import {Flower_Photo} from "../AboutImages/Flower_Photo.jpg" */
 
 .AboutRightContainer{
     margin: 0em 3em 0em 5em;
@@ -31,7 +32,10 @@
 .AboutLeafDesign{
     width:300px;
     height: 400px;
-    background-color: #F7B318;
+    background-image: url("../AboutImages/Flower_Photo.jpg");
+    background-position: -8em; 
+    background-repeat: no-repeat; 
+    background-size: 450px 600px; 
     border-radius: 55em 55em 0em 0em;
     margin-top:-350px;
     margin-left:100px;
@@ -46,7 +50,6 @@
     border: 5px solid white;
     width:250px;
     height: 350px;
-    background-color: #F7B318;
     border-radius: 55em 55em 0em 0em;
     
 }
