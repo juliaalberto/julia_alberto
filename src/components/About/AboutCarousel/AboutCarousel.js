@@ -1,5 +1,7 @@
 import {useState} from "react";
-import "./WorkCarousel.css";
+import "./AboutCarousel.css";
+
+
 
 const Carousel = ({images}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,7 +22,6 @@ const Carousel = ({images}) => {
     
     return (
         <div className="carousel">
-
             {/*https://www.freecodecamp.org/news/build-an-image-carousel-with-react-and-framer-motion/ */}
 
             <img

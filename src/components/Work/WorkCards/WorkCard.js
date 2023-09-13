@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutCard.css';
+import './WorkCard.css';
 
 function CardInfo (props){
   return (

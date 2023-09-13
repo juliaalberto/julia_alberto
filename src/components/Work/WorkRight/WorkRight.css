@@ -50,3 +50,39 @@
     border-radius: 55em 55em 80em 0em;
     
 }
+
+/* Tablet */
+@media (max-width: 820px) {
+
+}
+
+/* Phone */
+@media (max-width: 414px) {
+    .WorkRightContainer{
+        Margin: 0;
+    }
+
+    .WorkLeaf{
+        width: 150px;
+        height: 150px;
+        margin-left: 125px;
+    }
+
+    .WorkLeafDesign{
+        width:200px;
+        height: 300px;
+        margin-top: -125px;
+    }
+
+    .WorkLeafInsideDesign{
+        width: 150px;
+        height: 250px;
+    }
+
+    .WorkCircle{
+        height: 115px;
+        width: 115px;
+        margin-left: 135px;
+    }
+
+}

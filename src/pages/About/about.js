@@ -6,8 +6,8 @@ import Footer from '../../components/Footer/Footer';
 
 import AboutLeft from '../../components/About/AboutLeft/AboutLeft';
 import AboutRight from '../../components/About/AboutRight/AboutRight';
-import AboutExperiences from '../../components/About/AboutExperiences/AboutExperiences';
 
+import AboutExperienceContainer from '../../components/About/AboutExperienceContainer/AboutExperienceContainer';
 const AboutPage = () =>{
     return(
              <div class="AboutContainer">
@@ -17,7 +17,7 @@ const AboutPage = () =>{
                     <AboutRight/>
                     
                 </div>
-                <AboutExperiences/>
+                <AboutExperienceContainer/>
                 <Footer />
             </div>
     );

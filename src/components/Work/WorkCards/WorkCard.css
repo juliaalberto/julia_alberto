@@ -68,3 +68,16 @@
     font-family:Montserrat;
     text-align: left;
 }
+
+/* Tablet */
+@media (max-width: 820px) {
+
+}
+
+/* Phone */
+@media (max-width: 414px) {
+    .InfoCardContainer{
+        width: 15em;
+    }
+
+}

@@ -1,15 +1,15 @@
-import './AboutExperiences.css';
+import './WorkCardContainer.css';
 
 import * as React from 'react';
 import Users from './List';
-import CardInfo from './AboutCard';
+import CardInfo from './WorkCard';
  
 
-const AboutExperiences = () =>{
+const WorkExperiences = () =>{
     return(
-             <div className ="AboutExperiencesContainer">
-                <h1 className='AboutExperiencesTitle'> Experiences </h1>
-                 <div className='AboutExperienceCards'>
+             <div className ="WorkExperiencesContainer">
+                <h1 className='WorkExperiencesTitle'> Experience </h1>
+                 <div className='WorkExperienceCards'>
                 {Users.map((e)=>{
                     return (
                     <CardInfo year={e.year} name={e.name} description={e.description} languages={e.languages}/>
@@ -19,4 +19,4 @@ const AboutExperiences = () =>{
     );
 }
  
-export default AboutExperiences;
+export default WorkExperiences;

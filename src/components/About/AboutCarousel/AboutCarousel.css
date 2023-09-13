@@ -4,8 +4,8 @@
 
 .carousel img{
     height: auto;
-    max-width: 50em;
-    min-width: 25em;
+    max-width: 35em;
+    min-width: 10em;
     
 }
 
@@ -47,3 +47,14 @@
   background-color: #F7B318;
 }
 
+.dot:hover{
+  background-color: #C8E0CA;;
+}
+
+.right:hover{
+  border-color: transparent transparent transparent #C8E0CA;
+}
+
+.left:hover{
+  border-color: transparent #C8E0CA transparent transparent;
+}

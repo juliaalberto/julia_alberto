@@ -1,8 +1,8 @@
-.AboutExperiencesContainer{
-    width: 80%;
+.WorkExperiencesContainer{
+    margin: 2em 0 2em 0;
 }
 
-.AboutExperienceCards{
+.WorkExperienceCards{
     display:flex;
     flex-wrap: wrap;
     gap: 2em;
@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-.AboutExperiencesTitle{
+.WorkExperiencesTitle{
     font-family: Montserrat;
     color:#013237;
     margin: 50px 0px;

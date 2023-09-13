@@ -1,5 +1,6 @@
 .WorkExperienceTitle{
     font-family: 'Montserrat',sans-serif;
+    color:#013237
 }
 
 .accordion{
@@ -9,7 +10,7 @@
 .accordion-item{
     border: solid 3px #013237;
     margin:2em;
-    width: 20em;
+    width: 25em;
     padding: 2em;
     border-radius: 15px;
 }
@@ -21,6 +22,7 @@
     font-family: 'Montserrat',sans-serif;
     font-weight: 800;
     font-size: 18px;
+    color:#013237
     
 }
 
