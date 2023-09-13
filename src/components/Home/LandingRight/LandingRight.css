@@ -91,6 +91,34 @@
 }
 
 /* Phone */
-/* @media (max-width: 414px) {
+@media (max-width: 414px) {
+    .LeafImage{
+        height: 250px;
+        width:200px;
+        margin-left:50px;
     }
-} */
+    .CircleText{
+        width: 150px;
+        margin-left: 100px;
+        margin-bottom: 5px;
+    }
+
+.LeafDesign{
+    height: 200px;
+    width:150px;
+    margin-bottom: -335px;
+}
+
+.CircleImage{
+    width: 100px;
+    height: 100px;
+    margin-bottom: -215px;
+}
+
+.typewrite{
+    height: 75px;
+    width: 75px;
+    font-size: 30px;
+    border: 2px solid white;
+}
+}
