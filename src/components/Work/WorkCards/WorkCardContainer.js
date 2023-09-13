@@ -12,7 +12,7 @@ const WorkExperiences = () =>{
                  <div className='WorkExperienceCards'>
                 {Users.map((e)=>{
                     return (
-                    <CardInfo year={e.year} name={e.name} description={e.description} languages={e.languages}/>
+                    <CardInfo image={e.image} year={e.year} name={e.name} description={e.description} languages={e.languages}/>
                     );})}
                 </div>
             </div>
