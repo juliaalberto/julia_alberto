@@ -1,4 +1,4 @@
-.WorkExperiencesContainer{
+.WorkExperiencesCardsContainer{
     margin: 2em 0 2em 0;
 }
 
@@ -8,10 +8,4 @@
     gap: 2em;
     align-items: center;
     justify-content: center;
-}
-
-.WorkExperiencesTitle{
-    font-family: Montserrat;
-    color:#013237;
-    margin: 50px 0px;
 }

@@ -7,8 +7,7 @@ import CardInfo from './WorkCard';
 
 const WorkExperiences = () =>{
     return(
-             <div className ="WorkExperiencesContainer">
-                <h1 className='WorkExperiencesTitle'> Experience </h1>
+             <div className ="WorkExperiencesCardsContainer">
                  <div className='WorkExperienceCards'>
                 {Users.map((e)=>{
                     return (

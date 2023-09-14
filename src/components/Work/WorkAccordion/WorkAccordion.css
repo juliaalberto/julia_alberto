@@ -1,32 +1,24 @@
-.WorkExperienceTitle{
-    font-family: 'Montserrat',sans-serif;
-    color:#013237
-}
-
-.accordion{
+.work-accordion-container{
+    display:flex;
     justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.accordion-item{
-    border: solid 3px #013237;
-    margin:2em;
-    width: 25em;
-    padding: 2em;
-    border-radius: 15px;
+/* Tablet */
+@media (max-width: 820px) {
+    .work-accordion-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.accordion-title{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: 'Montserrat',sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    color:#013237
-    
-}
-
-.accordion-content{
-    margin-top: 2em;
-    text-align: left;
+/* Phone */
+@media (max-width: 414px) {
+    .work-accordion-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 }

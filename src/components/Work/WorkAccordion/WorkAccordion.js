@@ -1,18 +1,22 @@
+import "./WorkAccordion.css"
+import React from 'react';
+import WorkAccordionItem from './WorkAccordionItem';
+import { accordionData } from './WorkAccordionInfo';
 
-import React, { useState } from 'react';
-
-
-const WorkAccordion = ({ title, content }) => {
-    const [isActive, setIsActive] = useState(false);
-
-    return (
-      <div className="accordion-item">
-        <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
-          <div>{title}</div>
-          <div>{isActive ? '-' : '+'}</div>
+const WorkAccordion = () => {
+  return (
+    <div>
+      {/* https://www.freecodecamp.org/news/build-accordion-menu-in-react-without-external-libraries/ */}
+      
+      <div className="work-accordion-container">
+        <div className="accordion">
+          {accordionData.map(({ title, content }) => (
+            <WorkAccordionItem title={title} content={content} />
+          ))}
         </div>
-        {isActive && <div className="accordion-content">{content}</div>}
       </div>
-    );
-  };
+    </div>
+  );
+};
+
 export default WorkAccordion;

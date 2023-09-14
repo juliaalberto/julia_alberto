@@ -8,6 +8,8 @@ import WorkLeft from '../../components/Work/WorkLeft/WorkLeft';
 import WorkRight from '../../components/Work/WorkRight/WorkRight';
 
 import WorkExperienceCards from '../../components/Work/WorkCards/WorkCardContainer.js';
+import WorkAccordion from '../../components/Work/WorkAccordion/WorkAccordion.js';
+
 
 const WorkPage = () =>{
     return(
@@ -17,7 +19,10 @@ const WorkPage = () =>{
                     <WorkLeft/>
                     <WorkRight/>
                 </div>
+                <h1 className='WorkExperiencesTitle'> Experience </h1>
                 <div className = "WorkExperienceContainer">
+                    <h1 className='WorkExperiencesTitle'> Experience </h1>
+                    <WorkAccordion />
                     <WorkExperienceCards/>
                 </div>
                 <Footer />
