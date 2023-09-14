@@ -12,9 +12,33 @@
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
-    
 }
  
+.InfoCardHover{
+    width:20em;
+    border-radius: 5%;
+    height: 20em;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoCardHover:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoCardContainer:hover{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    z-index: -1;
+}
 
 .InfoCardContainer img{
     position: absolute;

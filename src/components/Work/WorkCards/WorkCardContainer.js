@@ -11,7 +11,7 @@ const WorkExperiences = () =>{
                  <div className='WorkExperienceCards'>
                 {Users.map((e)=>{
                     return (
-                    <CardInfo image={e.image} year={e.year} name={e.name} description={e.description} languages={e.languages}/>
+                    <CardInfo link={e.link} image={e.image} year={e.year} name={e.name} description={e.description} languages={e.languages}/>
                     );})}
                 </div>
             </div>
