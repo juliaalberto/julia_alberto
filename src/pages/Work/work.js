@@ -21,7 +21,6 @@ const WorkPage = () =>{
                 </div>
                 <h1 className='WorkExperiencesTitle'> Experience </h1>
                 <div className = "WorkExperienceContainer">
-                    <h1 className='WorkExperiencesTitle'> Experience </h1>
                     <WorkAccordion />
                     <WorkExperienceCards/>
                 </div>
