@@ -15,10 +15,10 @@ const Footer = () =>{
         <h2>LETS CONNECT!</h2>
         <h3>I am currently looking for work opportunites</h3>
         <div class ="BottomLinkContainer">
-          <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={instagram} alt="Instagram" /> </div> </a>
-          <a href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={linkedin} alt="Linkedin" /></div> </a>
-          <a href ="mailto:julia.elyssa.alberto@gmail.com"><div class="SocialLink"> <img src={gmail} alt="Gmail" /></div> </a>
-          <a href ="https://github.com/juliaalberto"> <div class="SocialLink"> <img src={github} alt="Github" /></div> </a>
+          <a target="_blank" href ="https://www.instagram.com/juliaxalberto/?igshid=YTQwZjQ0NmI0OA%3D%3D"> <div class="SocialLink"> <img src={instagram} alt="Instagram" /> </div> </a>
+          <a target="_blank" href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={linkedin} alt="Linkedin" /></div> </a>
+          <a target="_blank" href ="mailto:julia.elyssa.alberto@gmail.com"><div class="SocialLink"> <img src={gmail} alt="Gmail" /></div> </a>
+          <a target="_blank" href ="https://github.com/juliaalberto"> <div class="SocialLink"> <img src={github} alt="Github" /></div> </a>
           <div class="SocialLink"> <img src={coffee} alt="Coffee Chat" /></div>
         </div>
     </div>

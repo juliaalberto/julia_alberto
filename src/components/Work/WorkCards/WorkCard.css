@@ -13,32 +13,6 @@
     justify-content: space-between;
     overflow: hidden;
 }
- 
-.InfoCardHover{
-    width:20em;
-    border-radius: 5%;
-    height: 20em;
-    padding: 20px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.InfoCardHover:hover{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.InfoCardContainer:hover{
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-    z-index: -1;
-}
 
 .InfoCardContainer img{
     position: absolute;
@@ -47,6 +21,21 @@
     top:0;
     left:0;
     margin-left: -4em;
+}
+
+.InfoCardTop{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.InfoCardTop a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.InfoCardTop:hover a{
+    color: #F7B318;
 }
 
 .InfoCardBottom{
