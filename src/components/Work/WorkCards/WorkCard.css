@@ -4,13 +4,13 @@
     padding: 20px;
     position: relative;
     border-radius: 5%;
-    /* background: linear-gradient(180deg, rgba(252, 247, 244, 0.20) 40.62%, rgba(1, 50, 55, 0.20) 66.34%, #013237 100%); */
     background: #C8E0CA;
     /* border: solid 2px #013237; */
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items:center;
     overflow: hidden;
 }
 
@@ -20,42 +20,26 @@
     height: 23em;
     top:0;
     left:0;
-    margin-left: -4em;
+    margin-left: -5.5em;
 }
 
 .InfoCardTop{
     display: flex;
     justify-content: space-between;
     z-index: 1;
+    width: 100%;
+    
 }
 
 .InfoCardTop a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FCF7F4;
+    font-weight: 700;
 }
 
 .InfoCardTop:hover a{
     color: #F7B318;
-}
-
-.InfoCardBottom{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    color: #013237;;
-    z-index: 1;
-}
-
-
-.InfoCardBottom h1{
-    margin: 0;
-    /* text-shadow: -1px 1px 2px #013237,
-				  1px 1px 2px #013237,
-				  1px -1px 0 #013237,
-				  -1px -1px 0 #013237; */
-    font-family:Montserrat;
-    text-align: left;
 }
 
 .InfoCardContainer h2{
@@ -67,6 +51,33 @@
     z-index: 1;
 
 }
+
+.InfoCardBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+    padding: 1em 2em;
+    /* background-color: rgb(200, 224, 202, 0.5); */
+    background: linear-gradient(0deg, rgba(200,224,202,1) 0%, rgba(200,224,202,0.5956976540616247) 85%, rgba(200,224,202,0) 100%);
+    z-index: 1;
+
+    position:absolute;
+    bottom:0;
+    width: 90%;
+}
+
+.InfoCardBottomText{
+    color: #013237;
+
+}
+
+.InfoCardBottom h1{
+    font-family:Montserrat;
+    text-align: left;
+}
+
+
 
 .InfoCardBottom h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
