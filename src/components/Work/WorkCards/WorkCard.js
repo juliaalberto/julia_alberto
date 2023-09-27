@@ -19,6 +19,7 @@ function CardInfo (props){
             <h1> {props.name} </h1>
             <h3> {props.description}</h3>
             <span> {props.languages.join(' • ')}</span>
+            
           </div>
         </div>
       </div>

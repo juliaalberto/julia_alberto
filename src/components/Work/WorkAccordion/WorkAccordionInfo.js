@@ -8,7 +8,7 @@ export const accordionData = [
       content: `HTML • CSS • Javascript • SQL • Python • C • C++`
     },
     {
-      title: 'Communcation Languages',
+      title: 'Languages',
       content: `English • American Sign Language • Filipino/Tagalog`
     }
   ];
