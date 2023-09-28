@@ -3,3 +3,18 @@
     color:#013237;
     margin: 50px 0;
 }
+
+/* Tablet */
+@media (max-width: 820px) {
+    .AboutExperienceTitle{
+       margin: 20px 0;
+    }
+}
+
+
+ /* Phone 
+@media (max-width: 414px) {
+    .{
+
+    }
+}  */

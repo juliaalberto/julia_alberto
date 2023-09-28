@@ -4,7 +4,7 @@
 
 .carousel img{
     height: auto;
-    max-width: 20em;
+    max-width: 30em;
     min-width: 10em;
     border: solid 8px #F7B318;
     
@@ -58,4 +58,17 @@
 
 .left:hover{
   border-color: transparent #C8E0CA transparent transparent;
+}
+
+/* Tablet */
+@media (max-width: 820px) {
+  {
+  }
+}
+
+/* Phone */
+@media (max-width: 414px) {
+  .carousel img{
+     max-width: 20em; 
+  }
 }

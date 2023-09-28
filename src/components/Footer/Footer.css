@@ -81,6 +81,17 @@
     .FooterRight{
         flex-direction: row;
     }
+    .FooterLeft h2{
+        font-size: 20px;
+    }
+    .FooterLeft h3{
+        font-size: 14px;
+    }
+    .SocialLink{
+        height: 2em;
+        width: 2em;
+    }
+
 }
 
 /* Phone */
@@ -92,5 +103,8 @@
     }
     .FooterRight{
         max-width: 25em;
+    }
+    .BottomLinkContainer{
+        width: 350px;
     }
 }

@@ -50,28 +50,21 @@
         box-shadow: 0px 0px 20px 1px #C8E0CA;
 }
 
-/* Tablet
+/* Tablet */
 @media (max-width: 820px) {
-    .LandingButton{
-        background-color: red;
-        padding: 30px 60px 30px 60px;
-        border: none;
-        border-radius: 5%;
-        
-        font-size: 20px;
-        color: #013237;
+    .LandingLeftContainer h1{
+        font-size: 30px;
     }
+    .LandingLeftContainer h2{
+        font-size: 16px;
+    }
+    .LandingButton{
+        font-size: 16px;
+    }
+
 }
 
-/* Phone 
+/* Phone */
 @media (max-width: 414px) {
-    .LandingButton{
-        background-color: red;
-        padding: 30px 60px 30px 60px;
-        border: none;
-        border-radius: 5%;
-        
-        font-size: 20px;
-        color: #013237;
-    }
-} */
+
+} 

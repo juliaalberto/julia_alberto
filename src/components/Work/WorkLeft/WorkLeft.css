@@ -63,3 +63,22 @@
     color:#C8E0CA;
     
 }
+
+/* Tablet */
+@media (max-width: 820px) {
+    .WorkLeftContainer h1{
+        font-size: 30px;
+    }
+    .WorkLeftText h2{
+        font-size: 16px;
+    }
+    .WorkButton{
+        font-size: 16px;
+    }
+
+}
+
+/* Phone */
+@media (max-width: 414px) {
+
+} 
