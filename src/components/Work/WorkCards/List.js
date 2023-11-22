@@ -11,7 +11,7 @@ const Users=[
       languages:["HTML", "CSS", "Javascript"],
     },
     {
-      link: 'https://linktr.ee/includedavis',
+      link: 'https://includedavis.com/',
       image: include_photo,
       year:"2021-2023",
       name:"Technical Lead",
