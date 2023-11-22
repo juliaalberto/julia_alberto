@@ -66,5 +66,15 @@
 
 /* Phone */
 @media (max-width: 414px) {
+    .LandingLeftContainer h1{
+        font-size: 20px;
+    }
+    .LandingLeftContainer h2{
+        font-size: 14px;
+    }
+    .LandingButton{
+        font-size: 14px;
+        padding: 30px;
+    }
 
 } 
