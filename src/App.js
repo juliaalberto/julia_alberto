@@ -6,7 +6,7 @@ import AboutPage from './pages/About/about';
 import ResumePage from './pages/Resume/resume';
 import WorkPage from './pages/Work/work';
 
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {

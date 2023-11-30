@@ -5,7 +5,7 @@ const Users=[
     {
       link: 'https://www.aifs.ucdavis.edu/',
       image: AIFS_photo,
-      year:"2022-",
+      year:"2022 -",
       name:"Web Manager",
       description:"AIFS - AI Institute for Next Generation Food Systems",
       languages:["HTML", "CSS", "Javascript"],
@@ -13,7 +13,7 @@ const Users=[
     {
       link: 'https://includedavis.com/',
       image: include_photo,
-      year:"2021-2023",
+      year:"2021 - 2023",
       name:"Technical Lead",
       description:"#include",
       languages: ["React.js", "Next.js", "Web Development"]
@@ -21,7 +21,7 @@ const Users=[
     {
       link: 'https://aggielife.ucdavis.edu/cssa/home/',
       image: CSSA_photo,
-      year:"2022-2023",
+      year:"2022 - 2023",
       name:"Project Lead",
       description:"CSSA - Cognitive Science Student Association",
       languages: ["HTML", "CSS", "Javascript"]
