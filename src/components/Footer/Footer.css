@@ -73,12 +73,7 @@
         align-items: center;
         gap: 1em;
     }
-    
-    .SocialLink{
-        height: 2em;
-        width: 2em;
-    }
-    
+
     .FooterLeft{
         align-items: center;
     }
@@ -90,10 +85,22 @@
         font-size: 14px;
     }
     .SocialLink{
-        height: 2em;
-        width: 2em;
+        height: 3em;
+        width: 3em;
     }
 
+    .SocialLink img{
+        width:40px;
+        height: 40px;
+    }
+
+    .BottomLinkContainer{
+        width: 300px;
+    }
+
+    .FooterRight h3{
+        font-size: 12px;
+    }
 }
 
 /* Phone */
@@ -103,10 +110,5 @@
         justify-content: center;
         align-items: center;
     }
-    .FooterRight{
-        max-width: 25em;
-    }
-    .BottomLinkContainer{
-        width: 300px;
-    }
+
 }
