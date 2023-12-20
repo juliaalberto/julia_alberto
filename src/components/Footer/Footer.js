@@ -12,7 +12,7 @@ const Footer = () =>{
   return (
   <div class = "FooterContainer">
     <div class="FooterLeft">
-        <h2>Lets Connect!</h2>
+        <h2>Let's Connect!</h2>
         <h3>I am currently looking for work opportunites</h3>
         <div class ="BottomLinkContainer">
           <a target="_blank" href ="https://www.instagram.com/juliaxalberto/?igshid=YTQwZjQ0NmI0OA%3D%3D"> <div class="SocialLink"> <img src={instagram} alt="Instagram" /> </div> </a>
