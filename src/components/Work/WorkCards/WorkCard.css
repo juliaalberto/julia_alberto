@@ -116,13 +116,15 @@
     .InfoCardTopText{
         width: 80%;
     }
-    .InfoCardContainer{
-        width: 25em;
-    }
 }
 
 /* Phone */
 @media (max-width: 414px) {
-
+    .InfoCardContainer{
+        width: 18em;
+    }
+    .InfoCardTopText{
+        width: 75%;
+    }
 
 }

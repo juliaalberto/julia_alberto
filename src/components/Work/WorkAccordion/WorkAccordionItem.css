@@ -8,6 +8,7 @@
     width: 25em;
     padding: 2em;
     border-radius: 15px;
+
 }
 
 .accordion-title{
@@ -17,8 +18,13 @@
     font-family: 'Montserrat',sans-serif;
     font-weight: 800;
     font-size: 18px;
-    color:#013237
+    color:#013237;
+    align-items: center
     
+}
+
+.accordiontitletext{
+    text-align: left;
 }
 
 .accordion-content{
@@ -37,7 +43,7 @@
 
 /* Phone */
 @media (max-width: 414px) {
-    {
-        
+    .accordion-item{
+        width:16em;
     }
 }
