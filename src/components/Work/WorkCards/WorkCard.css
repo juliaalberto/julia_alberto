@@ -110,16 +110,19 @@
 
 /* Tablet */
 @media (max-width: 820px) {
-    .InfoCardContainer img{
-        height: 55%;
-        width: auto;
-    }
+
 }
 
 /* Phone */
 @media (max-width: 414px) {
-    .InfoCardContainer{
-        
+    /* .InfoCardContainer img{
+        width: 25em;
     }
+    .InfoCardTopText{
+        width: 80%;
+    }
+    .InfoCardContainer{
+        width: 25em;
+    } */
 
 }
