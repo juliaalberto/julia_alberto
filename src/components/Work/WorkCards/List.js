@@ -6,7 +6,7 @@ const Users=[
       link: 'https://www.aifs.ucdavis.edu/',
       image: AIFS_photo,
       year:"2022 -",
-      name:"Web Manager",
+      name:"Website Developer",
       description:"AIFS - AI Institute for Next Generation Food Systems",
       languages:["HTML", "CSS", "Javascript"],
     },
