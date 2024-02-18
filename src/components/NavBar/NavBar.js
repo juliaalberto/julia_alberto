@@ -19,6 +19,7 @@ const NavBar= () =>{
   
   
   return (
+
   <div className = "NavBarContainer">
     <div className="NavBarLeft">
       <Link to="/"><img src={logo} alt="logo" className="logo"/> 

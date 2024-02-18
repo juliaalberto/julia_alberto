@@ -18,6 +18,7 @@ export default function Burger({isOpen}){
                 justify-content: space-around;
                 flex-flow: column nowrap;
                 z-index: 10;
+                padding: 0.5em;
             }
 
             .burger{
@@ -28,6 +29,16 @@ export default function Burger({isOpen}){
                 transform-origin: 1px;
                 transition: all 0.3s linear;
             }
+
+            .hburger:hover{
+                border: 2px solid #C8E0CA;
+                border-radius: 5px;
+            }
+
+            .hburger:active{
+                box-shadow: 0px 0px 20px 1px #C8E0CA;
+                border-color: #C8E0CA;
+              }
 
             .burger1{
                 transform: ${isOpen ? 'rotate(45deg)': 'rotate(0)'};

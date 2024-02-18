@@ -9,7 +9,6 @@
 
 .InfoCardContainer{
     width:20em;
-    height: 28em;
     padding: 0 20px;
     border-radius: 5%;
     background: #C8E0CA;
@@ -76,10 +75,11 @@
     height: 100%;
     width: 100%;
     padding: 20px 0;
+    gap: 3em;
 }
 
 .InfoCardBottomTopText{
-    height: 5em;
+    /* height: 5em; */
     display: flex;
     flex-direction: column;
     gap: 5px;
