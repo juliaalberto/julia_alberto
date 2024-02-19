@@ -4,7 +4,6 @@ import './LandingRight.css';
 import image from "./Front_Image.JPG";
 
 import * as React from 'react';
-import  Fade, { Zoom }  from 'react-reveal';
 
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;

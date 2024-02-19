@@ -19,7 +19,7 @@ const Users=[
       languages: ["React.js", "Next.js", "Web Development"]
     },
     {
-      link: 'https://aggielife.ucdavis.edu/cssa/home/',
+      link: 'https://linktr.ee/cssaatucdavis/',
       image: CSSA_photo,
       year:"2022 - 2023",
       name:"Project Lead",

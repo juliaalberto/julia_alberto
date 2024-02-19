@@ -10,16 +10,16 @@ import github from "./Socials/GitHub.svg";
 
 const Footer = () =>{
   return (
-  <div class = "FooterContainer">
+  <div class = "FooterContainer" id="footer">
     <div class="FooterLeft">
         <h2>Let's Connect!</h2>
         <h3>I am currently looking for work opportunites</h3>
         <div class ="BottomLinkContainer">
-          <a target="_blank" href ="https://www.instagram.com/juliaxalberto/?igshid=YTQwZjQ0NmI0OA%3D%3D"> <div class="SocialLink"> <img src={instagram} alt="Instagram" /> </div> </a>
-          <a target="_blank" href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={linkedin} alt="Linkedin" /></div> </a>
-          <a target="_blank" href ="mailto:julia.elyssa.alberto@gmail.com"><div class="SocialLink"> <img src={gmail} alt="Gmail" /></div> </a>
-          <a target="_blank" href ="https://github.com/juliaalberto"> <div class="SocialLink"> <img src={github} alt="Github" /></div> </a>
-          <a target="_blank" href ="https://calendly.com/juliaalberto/coffee-chat"><div class="SocialLink"> <img src={coffee} alt="Coffee Chat" /></div></a>
+          <a target="_blank" rel="noopener noreferrer" href ="https://www.instagram.com/juliaxalberto/?igshid=YTQwZjQ0NmI0OA%3D%3D"> <div class="SocialLink"> <img src={instagram} alt="Instagram" /> </div> </a>
+          <a target="_blank" rel="noopener noreferrer" href ="https://www.linkedin.com/in/julia-alberto-0804/"> <div class="SocialLink"> <img src={linkedin} alt="Linkedin" /></div> </a>
+          <a target="_blank" rel="noopener noreferrer" href ="mailto:julia.elyssa.alberto@gmail.com"><div class="SocialLink"> <img src={gmail} alt="Gmail" /></div> </a>
+          <a target="_blank" rel="noopener noreferrer" href ="https://github.com/juliaalberto"> <div class="SocialLink"> <img src={github} alt="Github" /></div> </a>
+          <a target="_blank" rel="noopener noreferrer" href ="https://calendly.com/juliaalberto/"><div class="SocialLink"> <img src={coffee} alt="Coffee Chat" /></div></a>
         </div>
     </div>
     <div class="FooterRight">

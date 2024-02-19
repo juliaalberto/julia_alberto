@@ -2,6 +2,26 @@
     background-color: #FCF7F4;
 }
 
+.skip-to-content-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 3em;
+  width: 75%;
+  background-color: #FCF7F4;
+  position: absolute;
+
+  transform: translateY(-100%);
+  transition: transform 0.5s;
+}
+
+.skip-to-content-links:focus-within{
+  transform: translateY(0%)
+}
+
+
 .NavBarContainer{
     display:flex;
     flex-direction: row;

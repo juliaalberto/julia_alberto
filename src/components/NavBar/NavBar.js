@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
   
 import './NavBar.css';
 
-// import { Fade as Hamburger } from 'hamburger-react';
-
 import Burger from "./Hamburger.js";
 import logo from "./JA_logo.png";
 
@@ -19,8 +17,12 @@ const NavBar= () =>{
   
   
   return (
-
   <div className = "NavBarContainer">
+
+    <div class="skip-to-content-links"> 
+      Skip to <a href="#main">Content</a> or <a href="#footer"> Footer</a> 
+    </div>
+
     <div className="NavBarLeft">
       <Link to="/"><img src={logo} alt="logo" className="logo"/> 
       <h1 className= "NavBarTitle">JULIA ELYSSA ALBERTO</h1>
