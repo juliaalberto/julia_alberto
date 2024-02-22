@@ -3,6 +3,7 @@ import React from 'react';
 import WorkAccordionItem from './WorkAccordionItem';
 import { accordionData } from './WorkAccordionInfo';
 
+
 const WorkAccordion = () => {
   return (
     <div>

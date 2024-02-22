@@ -7,7 +7,7 @@ import { Fade } from 'react-reveal';
 
 const WorkLeft = () =>{
     return(
-             <div class="WorkLeftContainer">
+             <div class="WorkLeftContainer" id="main">
                 <div className='WorkLeftText'>
                 <Fade bottom cascade>
                 <h1> Work </h1>

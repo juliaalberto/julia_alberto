@@ -5,8 +5,10 @@ import Users from './List';
 import CardInfo from './WorkCard';
  
 
+
 const WorkExperiences = () =>{
     return(
+        
              <div className ="WorkExperiencesCardsContainer">
                  <div className='WorkExperienceCards'>
                 {Users.map((e)=>{
@@ -15,6 +17,7 @@ const WorkExperiences = () =>{
                     );})}
                 </div>
             </div>
+        
     );
 }
  

@@ -9,7 +9,7 @@ import Footer from '../../components/Footer/Footer';
 const ResumePage = () =>{
 
     return(
-             <div class="ResumeContainer">
+             <div class="ResumeContainer" id="main">
                 <NavBar />
                 <a href={Julia_Elyssa_Alberto_Resume} class= "ResumeButton" download="Julia_Elyssa_Alberto_Resume">  <b>Download Resume</b></a>
                 <iframe src={Julia_Elyssa_Alberto_Resume} class="pdf"></iframe>
