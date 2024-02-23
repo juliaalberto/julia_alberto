@@ -53,6 +53,10 @@
 
 /* Tablet */
 @media (max-width: 820px) {
+    .LandingLeftContainer{
+        margin: 20px 0;
+    }
+    
     .LandingLeftContainer h1{
         font-size: 30px;
     }

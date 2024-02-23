@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3em 0em 5em 0em;
 }
 
 .LandingContainer{
@@ -15,6 +14,7 @@
     padding: 3em;
     justify-content: space-around;
     align-items: center;
+    gap: 5em;
 }
 
 /* Tablet */
@@ -23,13 +23,15 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        padding: 3em 0;
+        gap:2em;
     }
 }
 
 /* Phone */
 @media (max-width: 414px) {
     .LandingContainer{
-        padding: 8em 0em 4em 0em;
+        padding: 4em 0em 4em 0em;
         
     }
 }
