@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.5de6a956.css",
-    "main.js": "./static/js/main.93edf69b.js",
-    "static/js/787.ce2d5279.chunk.js": "./static/js/787.ce2d5279.chunk.js",
+    "main.css": "./static/css/main.aa42562d.css",
+    "main.js": "./static/js/main.9d0e0caa.js",
+    "static/js/453.ff1e6aa5.chunk.js": "./static/js/453.ff1e6aa5.chunk.js",
     "static/media/Amsterdam_Photo.png": "./static/media/Amsterdam_Photo.11c008693086a7159ee0.png",
     "static/media/Family_Photo.png": "./static/media/Family_Photo.da449075f38b4a230208.png",
     "static/media/Flower_Photo.jpg": "./static/media/Flower_Photo.7ca09bbd51a44b264a61.jpg",
@@ -11,7 +11,7 @@
     "static/media/CSSA_group.png": "./static/media/CSSA_group.fc5b5a9fb9cd505b51a9.png",
     "static/media/AIFS_group.png": "./static/media/AIFS_group.3acddb3b19e9c0a90a76.png",
     "static/media/include_group.png": "./static/media/include_group.f2760952e5bae81830e5.png",
-    "static/media/JA_logo.png": "./static/media/JA_logo.e700b09916016ec2fc73.png",
+    "static/media/JA_logo.png": "./static/media/JA_logo.755e819ca32f536136d8.png",
     "static/media/Front_Image.JPG": "./static/media/Front_Image.27c2c7fcfd03aa4014b9.JPG",
     "static/media/Julia_Elyssa_Alberto_Resume.pdf": "./static/media/Julia_Elyssa_Alberto_Resume.3104d57ab3c81fd19631.pdf",
     "static/media/Instagram.svg": "./static/media/Instagram.0e2baacfcdfee4f6a5edb4c0abceab7e.svg",
@@ -20,12 +20,12 @@
     "static/media/Coffee.svg": "./static/media/Coffee.f081c12ff848cd47c05a0348dc2797a1.svg",
     "static/media/LinkedIn.svg": "./static/media/LinkedIn.48bc4af32b53870dbc72967b951a91da.svg",
     "index.html": "./index.html",
-    "main.5de6a956.css.map": "./static/css/main.5de6a956.css.map",
-    "main.93edf69b.js.map": "./static/js/main.93edf69b.js.map",
-    "787.ce2d5279.chunk.js.map": "./static/js/787.ce2d5279.chunk.js.map"
+    "main.aa42562d.css.map": "./static/css/main.aa42562d.css.map",
+    "main.9d0e0caa.js.map": "./static/js/main.9d0e0caa.js.map",
+    "453.ff1e6aa5.chunk.js.map": "./static/js/453.ff1e6aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5de6a956.css",
-    "static/js/main.93edf69b.js"
+    "static/css/main.aa42562d.css",
+    "static/js/main.9d0e0caa.js"
   ]
 }
