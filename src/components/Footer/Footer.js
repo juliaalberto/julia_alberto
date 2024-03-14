@@ -8,7 +8,7 @@ import gmail from "./Socials/Gmail.svg";
 import coffee from "./Socials/Coffee.svg";
 import github from "./Socials/GitHub.svg";
 
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 const Footer = () =>{
   return (

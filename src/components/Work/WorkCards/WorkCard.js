@@ -1,7 +1,7 @@
 import React from 'react';
 import './WorkCard.css';
 
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 function CardInfo (props){
   return (

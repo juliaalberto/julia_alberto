@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import "./WorkAccordionItem.css"
 
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 const WorkAccordionItem = ({ title, content }) => {
     const [isActive, setIsActive] = useState(false);
