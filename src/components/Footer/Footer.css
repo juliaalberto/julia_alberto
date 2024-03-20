@@ -43,6 +43,11 @@
     border-radius: 50%;
 }
 
+.SocialLink img{
+    height: 50px;
+    width: 50px;
+}
+
 .SocialLink:hover{
     transition: 0.25s;
     border:solid 2px #C8E0CA;
