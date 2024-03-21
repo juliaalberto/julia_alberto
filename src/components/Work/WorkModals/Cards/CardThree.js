@@ -1,27 +1,28 @@
 import React from 'react';
-import './WorkCard.css';
+import './Cards.css';
 
 import { Fade } from 'react-awesome-reveal';
+import AIFS_Photo from './AIFS_group.png'
 
-function CardInfo (props){
+
+function CardInfoThree (){
   return (
     
     
     <div className='InfoCardItem'>
       
     <Fade cascade>
-      <a href= {props.link}>
       <div className='InfoCardContainer'>
       
       
       <div className='InfoCardTop'>
         
         <div className='InfoCardTopText'>
-          <a href={props.link}>learn more</a>
-          <h2> {props.year} </h2>
+          <a>learn more</a>
+          <h2> 2023 </h2>
           </div>
           
-          <img src={props.image}></img>
+          <img src={AIFS_Photo}></img>
         </div>
         
           
@@ -31,11 +32,11 @@ function CardInfo (props){
           
             <div className='InfoCardBottomTopText'>
                     
-              <h1> {props.name} </h1>
-              <h3> {props.description}</h3>
+              <h1> AIFS </h1>
+              <h3> Description </h3>
             </div>
             <div className='InforCardBottomBottomText'>
-              <span> {props.languages.join(' • ')}</span>
+              <span> Language 1 Language 2 Language 3 </span>
             </div>
       
           </div>
@@ -44,11 +45,11 @@ function CardInfo (props){
        
       </div>
       
-      </a>
+    
       </Fade>
      </div>
 
      
   )
 }
-export default CardInfo;
+export default CardInfoThree;

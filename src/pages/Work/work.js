@@ -10,6 +10,7 @@ import WorkRight from '../../components/Work/WorkRight/WorkRight';
 import WorkExperienceCards from '../../components/Work/WorkCards/WorkCardContainer.js';
 import WorkAccordion from '../../components/Work/WorkAccordion/WorkAccordion.js';
 
+import { WorkModalContainer } from '../../components/Work/WorkModals/WorkModalContainer.js';
 
 const WorkPage = () =>{
     return(
@@ -23,6 +24,7 @@ const WorkPage = () =>{
                 <div className = "WorkExperienceContainer">
                     <WorkAccordion />
                     <WorkExperienceCards/>
+                    <WorkModalContainer/>
                 </div>
                 <Footer />
             </div>
