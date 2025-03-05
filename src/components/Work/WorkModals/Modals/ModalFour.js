@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ModalTwo() {
+function ModalFour() {
   return (
     <div className="modal__content">
       Coming Soon
@@ -8,4 +8,4 @@ function ModalTwo() {
   )
 }
 
-export default ModalTwo
+export default ModalFour

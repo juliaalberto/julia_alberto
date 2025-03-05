@@ -7,6 +7,8 @@ import Modal from './Modals/Modals';
 import CardInfoOne from './Cards/CardOne';
 import CardInfoTwo from './Cards/CardTwo';
 import CardInfoThree from './Cards/CardThree';
+import CardInfoFour from './Cards/CardFour';
+import CardInfoFive from './Cards/CardFive';
 
 
 export const ModalContext = React.createContext(null)
@@ -30,9 +32,11 @@ export function WorkModalContainer() {
                     <CardInfo link={e.link} image={e.image} year={e.year} name={e.name} description={e.description} languages={e.languages}/>
                     );})} */}
 
-                    <div onClick={() => setModalParams({ isOpen: true, type: 'modalOne' })}><CardInfoOne /></div>
-                    <div onClick={() => setModalParams({ isOpen: true, type: 'modalTwo' })}><CardInfoTwo /></div>
+                    <div onClick={() => setModalParams({ isOpen: true, type: 'modalFive' })}><CardInfoFive /></div>
+                    <div onClick={() => setModalParams({ isOpen: true, type: 'modalFour' })}><CardInfoFour /></div>
                     <div onClick={() => setModalParams({ isOpen: true, type: 'modalThree' })}><CardInfoThree /></div>
+                    <div onClick={() => setModalParams({ isOpen: true, type: 'modalTwo' })}><CardInfoTwo /></div>
+                    <div onClick={() => setModalParams({ isOpen: true, type: 'modalOne' })}><CardInfoOne /></div>
                 </div>
 
             </ModalContext.Provider>

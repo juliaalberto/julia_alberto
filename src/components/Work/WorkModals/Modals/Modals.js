@@ -4,6 +4,8 @@ import React, { useContext } from 'react'
 import ModalOne from './ModalOne';
 import ModalTwo from './ModalTwo';
 import ModalThree from './ModalThree';
+import ModalFour from './ModalFour';
+import ModalFive from './ModalFive';
 
 import { ModalContext } from '../WorkModalContainer';
 
@@ -20,6 +22,8 @@ function Modal() {
         {modal.type === 'modalOne' && <ModalOne />}
         {modal.type === 'modalTwo' && <ModalTwo />}
         {modal.type === 'modalThree' && <ModalThree />}
+        {modal.type === 'modalFour' && <ModalFour />}
+        {modal.type === 'modalFive' && <ModalFive />}
       </div>
     )
   } else return (<></>)

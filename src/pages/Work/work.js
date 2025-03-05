@@ -23,7 +23,7 @@ const WorkPage = () =>{
                 <h1 className='WorkExperiencesTitle'> Experience </h1>
                 <div className = "WorkExperienceContainer">
                     <WorkAccordion />
-                    <WorkExperienceCards/>
+                    {/* <WorkExperienceCards/> */}
                     <WorkModalContainer/>
                 </div>
                 <Footer />

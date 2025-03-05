@@ -9,47 +9,48 @@ function CardInfoThree (){
   return (
     
     
-    <div className='InfoCardItem'>
+    
+
+<div className='InfoCardItem' >
       
-    <Fade cascade>
-      <div className='InfoCardContainer'>
-      
-      
-      <div className='InfoCardTop'>
-        
-        <div className='InfoCardTopText'>
-          <a>learn more</a>
-          <h2> 2023 </h2>
-          </div>
-          
-          <img src={AIFS_Photo}></img>
-        </div>
-        
-          
-        <div className='InfoCardBottom'>
-        
-          <div className = "InfoCardBottomText">
-          
-            <div className='InfoCardBottomTopText'>
-                    
-              <h1> AIFS </h1>
-              <h3> Description </h3>
-            </div>
-            <div className='InforCardBottomBottomText'>
-              <span> Language 1 Language 2 Language 3 </span>
-            </div>
-      
-          </div>
-          
-        </div>
-       
+<Fade cascade>
+  <div className='InfoCardContainer'>
+  
+  
+  <div className='InfoCardTop'>
+    
+    <div className='InfoCardTopText'>
+      <a>learn more</a>
+      <h2> 2022 - 2024</h2>
       </div>
       
+      <img src={AIFS_Photo}></img>
+    </div>
     
-      </Fade>
-     </div>
+      
+    <div className='InfoCardBottom'>
+    
+      <div className = "InfoCardBottomText">
+      
+        <div className='InfoCardBottomTopText'>
+                
+          <h1> Website Developer </h1>
+          <h3> AIFS - AI Institute for Next Generation Food Systems </h3>
+        </div>
+        <div className='InforCardBottomBottomText'>
+          <span> HTML • CSS • Javascript </span>
+        </div>
+  
+      </div>
+      
+    </div>
+   
+  </div>
+  
 
-     
+  </Fade>
+ </div>
+
   )
 }
 export default CardInfoThree;

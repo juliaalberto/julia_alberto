@@ -10,7 +10,7 @@ const AboutLeft = () =>{
                 <div className='AboutLeftText'>
                 <Fade bottom cascade>
                 <h1> About </h1>
-                <h2> I am an undergradute student at <b>UC Davis</b> majoring in <b>Cognitive Science</b> with a <b>Computational Emphasis</b> and minoring in <b>Computer Science</b> and <b>Education</b></h2>
+                <h2> I graduated from <b>UC Davis</b> with a Bachelors of Science in <b>Cognitive Science</b> with a <b>Computational Emphasis</b> and minors in <b>Computer Science</b> and <b>Education</b></h2>
 
                 <h2>
                     I continuously orient myself to promote <b>social and educational</b> change, awareness, and acceptance through different <b>accessible and interactive</b> experiences and applications for all abilities and ages

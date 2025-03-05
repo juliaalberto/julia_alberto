@@ -2,16 +2,16 @@ import React from 'react';
 import './Cards.css';
 
 import { Fade } from 'react-awesome-reveal';
-import CSSA_Photo from './CSSA_group.png'
+import AIFS_Photo from './AIFS_group.png'
 
 
-
-function CardInfoOne (){
+function CardInfoFour (){
   return (
     
-    <div className='InfoCardItem'>
+    
+    <div className='InfoCardItem' >
       
-    <Fade cascade>
+    {/* <Fade cascade>
       <div className='InfoCardContainer'>
       
       
@@ -19,10 +19,10 @@ function CardInfoOne (){
         
         <div className='InfoCardTopText'>
           <a>learn more</a>
-          <h2> 2022 - 2023 </h2>
+          <h2> 2022 - </h2>
           </div>
           
-          <img src={CSSA_Photo}></img>
+          <img src={AIFS_Photo}></img>
         </div>
         
           
@@ -32,8 +32,8 @@ function CardInfoOne (){
           
             <div className='InfoCardBottomTopText'>
                     
-              <h1> Project Lead </h1>
-              <h3> CSSA - Cognitive Science Student Association </h3>
+              <h1> Website Developer </h1>
+              <h3> AIFS - AI Institute for Next Generation Food Systems </h3>
             </div>
             <div className='InforCardBottomBottomText'>
               <span> HTML • CSS • Javascript </span>
@@ -46,11 +46,10 @@ function CardInfoOne (){
       </div>
       
     
-      </Fade>
+      </Fade> */}
      </div>
-    
 
      
   )
 }
-export default CardInfoOne;
+export default CardInfoFour;
