@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.f2cd61a3.css",
-    "main.js": "./static/js/main.99481725.js",
+    "main.css": "./static/css/main.dc9f3236.css",
+    "main.js": "./static/js/main.d30e37dc.js",
     "static/js/453.ff1e6aa5.chunk.js": "./static/js/453.ff1e6aa5.chunk.js",
     "static/media/Amsterdam_Photo.png": "./static/media/Amsterdam_Photo.11c008693086a7159ee0.png",
     "static/media/Family_Photo.png": "./static/media/Family_Photo.da449075f38b4a230208.png",
@@ -13,19 +13,19 @@
     "static/media/include_group.png": "./static/media/include_group.f2760952e5bae81830e5.png",
     "static/media/JA_logo.png": "./static/media/JA_logo.755e819ca32f536136d8.png",
     "static/media/Front_Image.JPG": "./static/media/Front_Image.27c2c7fcfd03aa4014b9.JPG",
-    "static/media/Julia_Elyssa_Alberto_Resume.pdf": "./static/media/Julia_Elyssa_Alberto_Resume.3104d57ab3c81fd19631.pdf",
+    "static/media/Julia_Elyssa_Alberto_Resume.pdf": "./static/media/Julia_Elyssa_Alberto_Resume.3708b9dd72154e19851f.pdf",
     "static/media/Chat.svg": "./static/media/Chat.55dfe7bc1b19bfc1e873c75bf11a09d8.svg",
     "static/media/GitHub.svg": "./static/media/GitHub.7bbb8f044a7b0165ef67967b92bd0f05.svg",
     "static/media/Instagram.svg": "./static/media/Instagram.70f3cbe692bdebaa56637cb21563a84e.svg",
     "static/media/LinkedIn.svg": "./static/media/LinkedIn.2621de16f39f964ae572f7a66dcb0002.svg",
     "static/media/Gmail.svg": "./static/media/Gmail.01af3a00f334a32d51970641d11a95cf.svg",
     "index.html": "./index.html",
-    "main.f2cd61a3.css.map": "./static/css/main.f2cd61a3.css.map",
-    "main.99481725.js.map": "./static/js/main.99481725.js.map",
+    "main.dc9f3236.css.map": "./static/css/main.dc9f3236.css.map",
+    "main.d30e37dc.js.map": "./static/js/main.d30e37dc.js.map",
     "453.ff1e6aa5.chunk.js.map": "./static/js/453.ff1e6aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2cd61a3.css",
-    "static/js/main.99481725.js"
+    "static/css/main.dc9f3236.css",
+    "static/js/main.d30e37dc.js"
   ]
 }
