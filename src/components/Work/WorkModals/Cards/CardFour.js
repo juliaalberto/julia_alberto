@@ -19,7 +19,7 @@ function CardInfoFour (){
         
         <div className='InfoCardTopText'>
           <a>learn more</a>
-          <h2> 2022 - </h2>
+          <h2> 2024 - 2024 </h2>
           </div>
           
           <img src={AIFS_Photo}></img>
@@ -32,11 +32,11 @@ function CardInfoFour (){
           
             <div className='InfoCardBottomTopText'>
                     
-              <h1> Website Developer </h1>
-              <h3> AIFS - AI Institute for Next Generation Food Systems </h3>
+              <h1> Student Teacher Intern </h1>
+              <h3> First Grade Elementary School</h3>
             </div>
             <div className='InforCardBottomBottomText'>
-              <span> HTML • CSS • Javascript </span>
+              <span>  </span>
             </div>
       
           </div>

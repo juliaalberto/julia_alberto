@@ -16,8 +16,6 @@ const LandingLeft = () =>{
                 <h2> I create <b> meaningful and accessible </b>applications and experiences </h2>
                 </Fade>
                 <Link to="/work" class= "LandingButton">  <b>View my work here! </b></Link>
-                
-                
             </div>
             
     );
