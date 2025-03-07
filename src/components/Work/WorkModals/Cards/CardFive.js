@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 
 import { Fade } from 'react-awesome-reveal';
-import AIFS_Photo from './AIFS_group.png'
+import UCD_Youth_Photo from './UCD_Youth_Photo.jpg'
 
 
 function CardInfoFive (){
@@ -11,7 +11,7 @@ function CardInfoFive (){
     
     <div className='InfoCardItem' >
       
-    {/* <Fade cascade>
+    <Fade cascade>
       <div className='InfoCardContainer'>
       
       
@@ -22,7 +22,7 @@ function CardInfoFive (){
           <h2> 2024 - 2024 </h2>
           </div>
           
-          <img src={AIFS_Photo}></img>
+          <img src={UCD_Youth_Photo}></img>
         </div>
         
           
@@ -32,7 +32,7 @@ function CardInfoFive (){
           
             <div className='InfoCardBottomTopText'>
                     
-              <h1> Craft Lead </h1>
+              <h1> Craft Lead Counselor</h1>
               <h3> UC Davis Youth Programs </h3>
             </div>
             <div className='InforCardBottomBottomText'>
@@ -46,7 +46,7 @@ function CardInfoFive (){
       </div>
       
     
-      </Fade> */}
+      </Fade>
      </div>
 
      

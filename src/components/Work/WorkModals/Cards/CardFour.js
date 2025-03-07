@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 
 import { Fade } from 'react-awesome-reveal';
-import AIFS_Photo from './AIFS_group.png'
+import First_Grade_Photo from './FirstGradePhoto.jpg'
 
 
 function CardInfoFour (){
@@ -11,7 +11,7 @@ function CardInfoFour (){
     
     <div className='InfoCardItem' >
       
-    {/* <Fade cascade>
+    <Fade cascade>
       <div className='InfoCardContainer'>
       
       
@@ -22,7 +22,7 @@ function CardInfoFour (){
           <h2> 2024 - 2024 </h2>
           </div>
           
-          <img src={AIFS_Photo}></img>
+          <img src={First_Grade_Photo}></img>
         </div>
         
           
@@ -46,7 +46,7 @@ function CardInfoFour (){
       </div>
       
     
-      </Fade> */}
+      </Fade>
      </div>
 
      
