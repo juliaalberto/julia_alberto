@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.0d7e3d3f.css",
-    "main.js": "./static/js/main.4e064e42.js",
+    "main.js": "./static/js/main.cf6cc644.js",
     "static/js/453.ff1e6aa5.chunk.js": "./static/js/453.ff1e6aa5.chunk.js",
     "static/media/Amsterdam_Photo.png": "./static/media/Amsterdam_Photo.11c008693086a7159ee0.png",
     "static/media/Family_Photo.png": "./static/media/Family_Photo.da449075f38b4a230208.png",
@@ -14,6 +14,8 @@
     "static/media/JA_logo.png": "./static/media/JA_logo.755e819ca32f536136d8.png",
     "static/media/Front_Image.JPG": "./static/media/Front_Image.27c2c7fcfd03aa4014b9.JPG",
     "static/media/Julia_Elyssa_Alberto_Resume.pdf": "./static/media/Julia_Elyssa_Alberto_Resume.3708b9dd72154e19851f.pdf",
+    "static/media/UCD_Youth_Photo.jpg": "./static/media/UCD_Youth_Photo.10188d07d1f87c0a04a6.jpg",
+    "static/media/FirstGradePhoto.jpg": "./static/media/FirstGradePhoto.4a296dc035bf80c9fcbb.jpg",
     "static/media/Chat.svg": "./static/media/Chat.55dfe7bc1b19bfc1e873c75bf11a09d8.svg",
     "static/media/GitHub.svg": "./static/media/GitHub.7bbb8f044a7b0165ef67967b92bd0f05.svg",
     "static/media/Instagram.svg": "./static/media/Instagram.70f3cbe692bdebaa56637cb21563a84e.svg",
@@ -21,11 +23,11 @@
     "static/media/Gmail.svg": "./static/media/Gmail.01af3a00f334a32d51970641d11a95cf.svg",
     "index.html": "./index.html",
     "main.0d7e3d3f.css.map": "./static/css/main.0d7e3d3f.css.map",
-    "main.4e064e42.js.map": "./static/js/main.4e064e42.js.map",
+    "main.cf6cc644.js.map": "./static/js/main.cf6cc644.js.map",
     "453.ff1e6aa5.chunk.js.map": "./static/js/453.ff1e6aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d7e3d3f.css",
-    "static/js/main.4e064e42.js"
+    "static/js/main.cf6cc644.js"
   ]
 }
