@@ -1,16 +1,16 @@
 import './work.css';
 
 import * as React from 'react';
-import NavBar from '../../components/NavBar/NavBar';
-import Footer from '../../components/Footer/Footer';
+import NavBar from '../../components/NavBar/NavBar.jsx';
+import Footer from '../../components/Footer/Footer.jsx';
 
-import WorkLeft from '../../components/Work/WorkLeft/WorkLeft';
-import WorkRight from '../../components/Work/WorkRight/WorkRight';
+import WorkLeft from '../../components/Work/WorkLeft/WorkLeft.jsx';
+import WorkRight from '../../components/Work/WorkRight/WorkRight.jsx';
 
-import WorkExperienceCards from '../../components/Work/WorkCards/WorkCardContainer.js';
-import WorkAccordion from '../../components/Work/WorkAccordion/WorkAccordion.js';
+import WorkExperienceCards from '../../components/Work/WorkCards/WorkCardContainer.jsx';
+import WorkAccordion from '../../components/Work/WorkAccordion/WorkAccordion.jsx';
 
-import { WorkModalContainer } from '../../components/Work/WorkModals/WorkModalContainer.js';
+import { WorkModalContainer } from '../../components/Work/WorkModals/WorkModalContainer.jsx';
 
 const WorkPage = () =>{
     return(

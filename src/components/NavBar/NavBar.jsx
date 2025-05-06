@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
   
 import './NavBar.css';
 
-import Burger from "./Hamburger.js";
+import Burger from "./Hamburger.jsx";
 import logo from "./JA_logo.png";
 
 import { useState } from 'react';
@@ -19,7 +19,7 @@ const NavBar= () =>{
   return (
   <div className = "NavBarContainer">
 
-    <div class="skip-to-content-links"> 
+    <div className="skip-to-content-links"> 
       Skip to <a href="#main">Content</a> or <a href="#footer"> Footer</a> 
     </div>
 

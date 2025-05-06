@@ -39,6 +39,12 @@
         justify-content: center;
         align-items: center;
     }
+
+    .modal__content{
+        margin: 30vh auto;
+        width: 25em;
+    }
+
 }
 
 /* Phone */
@@ -46,6 +52,9 @@
     .WorkModalCards{
         margin: 0;
         gap: 2em 0;
-        
+    }
+
+    .modal__content{
+        width: 18em;
     }
 }

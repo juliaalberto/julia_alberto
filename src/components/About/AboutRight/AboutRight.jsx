@@ -6,12 +6,12 @@ import * as React from 'react';
 
 const AboutRight = () =>{
     return(
-             <div class="AboutRightContainer">
-                <div class= "AboutLeaf"> </div>
-                <div class= "AboutCircle"></div>
-                <div class= "AboutLeafDesign">
+             <div className="AboutRightContainer">
+                <div className= "AboutLeaf"> </div>
+                <div className= "AboutCircle"></div>
+                <div className= "AboutLeafDesign">
                 {/* <img src={Flower_Photo} alt="FrontImage" /> */}
-                <div class= "AboutLeafInsideDesign"></div>
+                <div className= "AboutLeafInsideDesign"></div>
             </div>
             </div>
     );

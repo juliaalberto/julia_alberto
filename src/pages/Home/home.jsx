@@ -10,9 +10,9 @@ import LandingRight from '../../components/Home/LandingRight/LandingRight';
 
 const HomePage = () =>{
     return(
-             <div class="HomeContainer">
+             <div className="HomeContainer">
                 <NavBar />
-                <div class = "LandingContainer">
+                <div className = "LandingContainer">
                     <LandingLeft/>
                     <LandingRight/>
                 </div>

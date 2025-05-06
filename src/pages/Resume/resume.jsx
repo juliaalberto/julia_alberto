@@ -9,10 +9,10 @@ import Footer from '../../components/Footer/Footer';
 const ResumePage = () =>{
 
     return(
-             <div class="ResumeContainer" id="main">
+             <div className="ResumeContainer" id="main">
                 <NavBar />
-                <a href={Julia_Elyssa_Alberto_Resume} class= "ResumeButton" download="Julia_Elyssa_Alberto_Resume">  <b>Download Resume</b></a>
-                <iframe src={Julia_Elyssa_Alberto_Resume} class="pdf"></iframe>
+                <a href={Julia_Elyssa_Alberto_Resume} className= "ResumeButton" download="Julia_Elyssa_Alberto_Resume">  <b>Download Resume</b></a>
+                <iframe src={Julia_Elyssa_Alberto_Resume} className="pdf"></iframe>
                 <Footer />
             </div>
     );

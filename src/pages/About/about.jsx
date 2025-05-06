@@ -10,7 +10,7 @@ import AboutRight from '../../components/About/AboutRight/AboutRight';
 import AboutExperienceContainer from '../../components/About/AboutExperienceContainer/AboutExperienceContainer';
 const AboutPage = () =>{
     return(
-             <div class="AboutContainer">
+             <div className="AboutContainer">
                 <NavBar />
                 <div class = "AboutLandingContainer">
                     <AboutLeft/>

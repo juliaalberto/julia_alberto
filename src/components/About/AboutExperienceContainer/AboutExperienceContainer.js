@@ -5,6 +5,7 @@ import Family_Photo from "../AboutImages/Family_Photo.png";
 import Dog_Photo from "../AboutImages/Dog_Photo.png";
 import BTS_Photo from "../AboutImages/BTS_Photo.png"
 
+
 import "./AboutExperienceContainer.css"
 
 const images = [
@@ -19,6 +20,7 @@ const images = [
       <div>
         <h1 className="AboutExperienceTitle"> Playground </h1>
         <Carousel images={images} />
+
     </div>
     );
   };

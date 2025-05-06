@@ -3,7 +3,7 @@ import "./AboutCarousel.css";
 
 
 
-const Carousel = ({images}) => {
+ const Carousel = ({images}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handleNext = () => {
@@ -50,7 +50,7 @@ const Carousel = ({images}) => {
         </div>
 
         </div>
-    );
-};
+     );
+ };
 
 export default Carousel;

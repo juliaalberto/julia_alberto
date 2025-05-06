@@ -8,14 +8,14 @@ import { Fade } from 'react-awesome-reveal';
 const LandingLeft = () =>{
     return(
         
-             <div class="LandingLeftContainer" id="main">
+             <div className="LandingLeftContainer" id="main">
                 <Fade cascade>
                 <h1> Julia Here! </h1>
                  <h1>Hello There! </h1>
                 <h2> I am from the <b>Bay Area</b> </h2>
                 <h2> I create <b> meaningful and accessible </b>applications and experiences </h2>
                 </Fade>
-                <Link to="/work" class= "LandingButton">  <b>View my work here! </b></Link>
+                <Link to="/work" className= "LandingButton">  <b>View my work here! </b></Link>
             </div>
             
     );

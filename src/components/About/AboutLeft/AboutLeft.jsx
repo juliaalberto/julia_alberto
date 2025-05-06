@@ -6,7 +6,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const AboutLeft = () =>{
     return(
-             <div class="AboutLeftContainer" id="main">
+             <div className="AboutLeftContainer" id="main">
                 <div className='AboutLeftText'>
                 <Fade bottom cascade>
                 <h1> About </h1>
